@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dannie Conner Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+  <header>
+		<nav>
+			<div class="navigation" id="navBar">
+				<div id="logo">
+					<a href="index.html" id="navlogo">Dannie Conner Portfolio</a>
+				</div>
+				<a href="contact.html">Contact</a>
+				<a href="about.html">About</a>
+				<a href="models.html">3D Models</a>
+			    <a href="graphics.html">Graphic Designs</a>
+				<a href="index.html">Home</a>
+				<a href="javascript:void(0);" class="icon" onclick="navFunction()">
+					<i class="fa fa-bars"><span class="screenReaderOnly">Hamburger menu</span></i></a> <!--this creates the hamburger menu icon, pulling from the linked style sheet -->
+			</div>
+		</nav>
+
+	<script>
+		function navFunction() {
+		  var x = document.getElementById("navBar");
+		  if (x.className === "navigation") {
+			x.className += " responsive";
+		  } else {
+			x.className = "navigation";
+		  }
+		}
+	</script>
+
+   </header>
+
+  <main>
+
+<div class="home-image">
+  <div class="home-text">
+    <h2 style="font-size:50px">Welcome To My Portfolio</h2>
+  </div>
+</div>	  
+
+
+	  
+<div class="Home">
+	<div class="Homerow"> 
+	  <div class="Homecolumn">
+		<div id="paragraph">
+		  <!--Designs-->  
+		<p3> My name is Dannie Conner. I am a senior at Purdue University, pursuing a double major in Web Programming & Development and 3D Computer Animation.
+		<br>
+		<br>
+		 This portfolio consists of a wide range of projects that I have completed for school and work, as well as my own personal projects.	
+		<br>
+	    <br>
+		  Please click the buttons to view my work.
+		<br>
+		<br>
+		
+		  </p3>
+		</div>	
+	  </div>
+	  <div class="Homecolumn">
+		 <!--Designs--> 
+		<div id="buttons"><a href="graphics.html" class="gButton">Graphic Designs</a>
+			<br>
+			<br>
+			<br>
+			<a href="models.html" class="mButton">3D Models</a>
+		</div>
+		</div>
+	</div>  
+	  </div>  
+  </main>
+
+	
+	  
+  </body>
+</html>

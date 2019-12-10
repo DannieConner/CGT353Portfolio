@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dannie Conner About Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  </head>
+
+  <body>
+  <header>
+		<nav>
+			<div class="navigation" id="navBar">
+				<div id="logo">
+					<a href="index.html" id="navlogo">Dannie Conner Portfolio</a>
+				</div>
+				<a href="contact.html">Contact</a>
+				<a href="about.html">About</a>
+				<a href="models.html">3D Models</a>
+				<a href="graphics.html">Graphic Designs</a>
+				<a href="index.html">Home</a>
+				<a href="javascript:void(0);" class="icon" onclick="navFunction()">
+						<i class="fa fa-bars"><span class="screenReaderOnly">Hamburger menu</span></i></a> <!--this creates the hamburger menu icon, pulling from the linked style sheet -->
+			</div>
+		</nav>
+
+	<script>
+		function navFunction() {
+		  var x = document.getElementById("navBar");
+		  if (x.className === "navigation") {
+			x.className += " responsive";
+		  } else {
+			x.className = "navigation";
+		  }
+		}
+	</script>
+
+
+    </header>
+
+  <main>
+
+<div class="about-image">
+  <div class="about-text">
+	  <h2 style="font-size:50px">About Me</h2>
+  </div>
+</div>	    
+	  
+	  
+<div class="About">
+	<div class="Aboutrow"> 
+	  <div class="Aboutcolumn">
+		<!--Designs-->  
+		<p2> My name is Dannie Conner. I am a senior at Purdue University, pursuing a double major in Web Programming & Development and 3D Computer Animation.
+		<br>
+		<br>
+		 I am very passionate about what I do. Summer of 2019 was spent interning in Atlanta at a small web development company. I hope to return to Atlanta to continue working in tech when I graduate in May 2020.
+		<br>
+		<br>
+		When I am not working on homework or at my job as a receptionist, I enjoy creating freelance Wordpress websites for clients, having wine with my cat, and vegging out on my couch watching Rupaul's Drag Race.
+		<br>
+	    <br>
+		
+		  </p2>
+	  </div>
+	  <div class="Aboutcolumn">
+		 <!--Designs--> 
+		<div class="responsive"><img src="images/homepic.jpg" alt="ProfilePic" style="width:500px">
+		</div>
+	 
+	 
+	</div>
+	</div>
+	  </div>
+
+<h3>My Resume</h3>
+<h4>Click Image to Download</h4>	  
+	  
+<div class="resume">
+	  <a href="https://drive.google.com/file/d/1XYp02stAtNXjdlSKEgS0HgXAWKOz-uJA/view?usp=sharing" download>
+		 <img src="images/resume.jpg" alt="Resume" ></a>	 
+
+ </div> 
+	
+  </main>
+
+  </body>
+</html>

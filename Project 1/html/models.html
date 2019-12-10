@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dannie Conner 3D Models</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+  <header>
+		<nav>
+			<div class="navigation" id="navBar">
+				<div id="logo">
+					<a href="index.html" id="navlogo">Dannie Conner Portfolio</a>
+				</div>
+				<a href="contact.html">Contact</a>
+				<a href="about.html">About</a>
+				<a href="models.html">3D Models</a>
+				<a href="graphics.html">Graphic Designs</a>
+				<a href="index.html">Home</a>
+				<a href="javascript:void(0);" class="icon" onclick="navFunction()">
+					<i class="fa fa-bars"><span class="screenReaderOnly">Hamburger menu</span></i></a> <!--this creates the hamburger menu icon, pulling from the linked style sheet -->
+			</div>
+		</nav>
+
+	<script>
+		function navFunction() {
+		  var x = document.getElementById("navBar");
+		  if (x.className === "navigation") {
+			x.className += " responsive";
+		  } else {
+			x.className = "navigation";
+		  }
+		}
+	</script>
+
+   </header>
+
+  <main>
+	  
+<div class="models-image">
+  <div class="models-text">
+    <h2 style="font-size:50px">3D Models</h2>
+    <p>These models were all built using Autodesk Maya.</p>
+  </div>
+</div>
+
+	  
+<!-- Photo Grid for MODELS -->
+<div class="models">
+	<div class="row"> 
+	  <div class="column">
+		<!--3d Models--> 
+		<img src="images/connerTexturing.jpg" alt="Texture" style="width:100%">
+		    <div class="desc">The models in this render were modeled by my classmates in CGT 341. All objects were unwrapped by me in Roadkill. All textures were created by me in photoshop and applied in Maya. This image was lit and rendered by me using Arnold. </div> 	
+		<img src="images/angle2.jpg" alt="Kitchen2" style="width:100%">
+		  	 <div class="desc"> Every object in this was modeled, unwrapped, and lit by me in Maya. Rendered in Arnold. 
+		  </div> 	
+	  </div>
+	  <div class="column">
+		 <!--3d Models--> 
+		<img src="images/angle1.jpg" alt="Kitchen1" style="width:100%">	
+		  <div class="desc"> This is an interior environment scene. Every object in this was modeled, unwrapped, and lit by me using 14 lights in Maya as a final project in CGT 341. Rendered in Arnold. 
+		  </div>
+		<img src="images/angle3.jpg" alt="Kitchen3" style="width:100%">
+		   <div class="desc"> Every object in this was modeled, unwrapped, and lit by me in Maya. Rendered in Arnold. 
+		  </div> 
+	  </div>  
+	  <div class="column">
+		  <!--3d Models-->
+		<img src="images/angle4.jpg" alt="Kitchen4" style="width:100%">
+		   <div class="desc"> Every object in this was modeled, unwrapped, and lit by me in Maya. Rendered in Arnold. 
+		  </div> 
+		<img src="images/angle5.jpg" alt="Kitchen5" style="width:100%"> 
+		   <div class="desc"> Every object in this was modeled, unwrapped, and lit by me in Maya. Rendered in Arnold. 
+		  </div> 
+	  </div>
+	</div>
+</div>		 
+
+	  
+  </main>
+
+	
+	  
+  </body>
+</html>

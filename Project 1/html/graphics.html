@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dannie Conner Graphic Designs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+  <header>
+		<nav>
+			<div class="navigation" id="navBar">
+				<div id="logo">
+					<a href="index.html" id="navlogo">Dannie Conner Portfolio</a>
+				</div>
+				<a href="contact.html">Contact</a>
+				<a href="about.html">About</a>	
+				<a href="models.html">3D Models</a>
+				<a href="graphics.html">Graphic Designs</a>
+				<a href="index.html">Home</a>
+				<a href="javascript:void(0);" class="icon" onclick="navFunction()">
+					<i class="fa fa-bars"><span class="screenReaderOnly">Hamburger menu</span></i></a> <!--this creates the hamburger menu icon, pulling from the linked style sheet -->
+			</div>
+		</nav>
+
+	<script>
+		function navFunction() {
+		  var x = document.getElementById("navBar");
+		  if (x.className === "navigation") {
+			x.className += " responsive";
+		  } else {
+			x.className = "navigation";
+		  }
+		}
+	</script>
+
+   </header>
+
+  <main>
+
+<div class="graphics-image">
+  <div class="graphics-text">
+    <h2 style="font-size:50px">Graphic Designs</h2>
+    <p>All of these images were created using a combination of Adobe Illustrator and Adobe Photoshop.</p>
+  </div>
+</div>	
+	  
+<div class="gdesigns">
+	<div class="row"> 
+	  <div class="column">
+		<!--Designs-->  
+		<img src="images/church.png" alt="Church" style="width:100%">  
+		  <div class="desc">This image was digitially traced and painted in Adobe Illustrator for CGT 118.</div>
+	  </div>
+	  <div class="column">
+		 <!--Designs--> 
+		<img src="images/pulpFiction.jpg" alt="Pulp" style="width:100%">
+		  	<div class="desc">This pattern was created using Illustrator for AD 105. The assests were created seperately in Illstrator. This was inspired by Pulp Fiction.</div>
+		<img src="images/circles.jpg" alt="Circles" style="width:100%">
+		  	<div class="desc">This piece was created using Illustrator for AD 105. The assests were created seperately in Illstrator.</div>
+	  </div>  
+	  <div class="column">
+		  <!--Designs-->
+		<img src="images/seashells.jpg" alt="Seashells" style="width:100%">
+		  	<div class="desc">This pattern was created using Illustrator for AD 105. The assests were created seperately in Illstrator.</div>
+		<img src="images/bobsBurgers.jpg" alt="Bob" style="width:100%"> 
+		  	<div class="desc">This is done by me using Illustrator and Photoshop. I reimagined my family as Bob's Burgers characters. These characters belong to and are trademarked by Fox, I do not claim them as my own.</div>
+	</div>
+	</div>	
+</div>		  
+	  
+  </main>
+
+	
+	  
+  </body>
+</html>
